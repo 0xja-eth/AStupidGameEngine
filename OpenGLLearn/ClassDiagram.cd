@@ -1,0 +1,562 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AnimatableTransform" Collapsed="true">
+    <Position X="32" Y="2.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAIAAAIAQAQQIGQIAUCAAAAFJIECABAABACBAQ=</HashCode>
+      <FileName>Transform.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Asset" Collapsed="true">
+    <Position X="17" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAUIAABEAAAQAAgEAANAAAAAAAAEJAAABEAkAAgAAAA=</HashCode>
+      <FileName>Asset.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AssetsPool" Collapsed="true">
+    <Position X="5.75" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAoAAAAAAAA=</HashCode>
+      <FileName>AssetsPool.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AssetsPoolBase" Collapsed="true">
+    <Position X="5.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAIAAAAAAAAIAQAAAAAAhACAAAABAAAACAAA=</HashCode>
+      <FileName>AssetsPool.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BoundingBox" Collapsed="true">
+    <Position X="32.75" Y="7.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>EAAAABAAQAFoBACQAAQIEgAQACADCIIAAAAACAAACAA=</HashCode>
+      <FileName>BoundingBox.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BoundingBoxRenderData" Collapsed="true">
+    <Position X="8.25" Y="6.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAgABAAAAAAAAAABAAAAAAAAAUAIAAA=</HashCode>
+      <FileName>BoundingBox.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Camera" Collapsed="true">
+    <Position X="25.5" Y="8" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>ABACAIAAAFDAAAAQAACACJAAAAAAABIAAAACAiAAggA=</HashCode>
+      <FileName>Camera.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CameraConfigData" Collapsed="true">
+    <Position X="1.5" Y="5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>ABCAAAAAAAAAAAgAAACAIAAAgAAAAAAAAQBAAAAgAAA=</HashCode>
+      <FileName>Camera.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Component" Collapsed="true">
+    <Position X="26.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AUCgAGAAIABAUUASAAAAQBAAgAAECBIBEAFEAAAAAAg=</HashCode>
+      <FileName>Component.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConfigData" Collapsed="true">
+    <Position X="2.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAACAAAAAgAQAAAAAgAAAAAAAAAAAAQBAAAIAAAA=</HashCode>
+      <FileName>ConfigData.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConfigurableComponent" Collapsed="true">
+    <Position X="26.5" Y="6.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAABAAAEACAAAAAAAEAgAAAEAEAAAAAICAAQgg=</HashCode>
+      <FileName>ConfigurableComponent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Enemy" Collapsed="true">
+    <Position X="27.75" Y="10.5" Width="1.75" />
+    <InheritanceLine Type="RenderableComponent" FixedToPoint="true">
+      <Path>
+        <Point X="30.75" Y="6.927" />
+        <Point X="30.75" Y="10.812" />
+        <Point X="29.5" Y="10.812" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AgAAAgAAQABAAACUAAYAAAAEAAABIAIABAAAAAAAAAA=</HashCode>
+      <FileName>Enemy.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entity" Collapsed="true">
+    <Position X="32.75" Y="5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>EAAIAIAAQABAAACAAAAAAAAEAAAAAAIAAAAAAAAIAAA=</HashCode>
+      <FileName>Entity.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EventManager" Collapsed="true">
+    <Position X="12.5" Y="2.75" Width="1.5" />
+    <InheritanceLine Type="ManagerBase" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="15" Y="3.062" />
+        <Point X="14" Y="3.062" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>EAASQBEhIAEAAAlQAgAACgAAAAIAAAAAAgBFAADAAQQ=</HashCode>
+      <FileName>EventManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameException" Collapsed="true">
+    <Position X="12.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAIA=</HashCode>
+      <FileName>GameException.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameManager" Collapsed="true">
+    <Position X="15" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAEAAAAAAAAEAAAAAIABIAAAAAiAAAAAEAAA=</HashCode>
+      <FileName>GameManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameOverScene" Collapsed="true">
+    <Position X="20.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAACAAEAAAAAAAAAQAAACAAgAAQAEAAgAAIAA=</HashCode>
+      <FileName>GameOverScene.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Image" Collapsed="true">
+    <Position X="32.75" Y="6.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAQABAAgAEARAAAAAAABAAQBIAAQAQAAAAAAA=</HashCode>
+      <FileName>Image.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Light" Collapsed="true">
+    <Position X="27.75" Y="8" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>QAAAAIAAgBBAJACQAAAAEgIBAQIAAAIAAAAKACBBAgA=</HashCode>
+      <FileName>Light.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LightConfigData" Collapsed="true">
+    <Position X="3.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QACAAAAAAAAAIAgAAAAAIAIAAAAAAAAAAABIACBhAAA=</HashCode>
+      <FileName>Light.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MainScene" Collapsed="true">
+    <Position X="22.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEBIIEQAACAAgAQEAAAgABQEAAAAAgAggAAAAgBAAQA=</HashCode>
+      <FileName>MainScene.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MainSceneSystem" Collapsed="true">
+    <Position X="12.5" Y="7.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>RAAJAoAAoCCQIAhUmQgoAAQBAAUXAAAhgABIAAAAYAA=</HashCode>
+      <FileName>MainSceneSystem.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ManagerBase" Collapsed="true">
+    <Position X="15" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAQgQAACAAAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>ManagerBase.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Material" Collapsed="true">
+    <Position X="12.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AMAAAAwAwACEAAgAAAQAAAAIAAAEACgEkAQEAAAACAA=</HashCode>
+      <FileName>Material.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MaterialAssetPool" Collapsed="true">
+    <Position X="1" Y="10.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAFAAAAAAAAAAAABAAAAAABAAAAAAAI=</HashCode>
+      <FileName>AssetsPool.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MaterialGroup" Collapsed="true">
+    <Position X="12.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEQgAAAAAAAAAgAQACAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Material.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MaterialRenderData" Collapsed="true">
+    <Position X="8.75" Y="4.5" Width="1.75" />
+    <InheritanceLine Type="RenderData" FixedToPoint="true">
+      <Path>
+        <Point X="6.5" Y="4.177" />
+        <Point X="6.5" Y="4.812" />
+        <Point X="8.75" Y="4.812" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AIAAAAwAgACAgAgAAAAAAAAAAAAAAAgEmARAAEAACAA=</HashCode>
+      <FileName>Material.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mesh" Collapsed="true">
+    <Position X="17" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>UAAAQAAAQAEBAIgAAAQAAQAIIAQVAAAAgQgMCgBAAQA=</HashCode>
+      <FileName>Mesh.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MeshRenderData" Collapsed="true">
+    <Position X="8.75" Y="3.5" Width="1.75" />
+    <InheritanceLine Type="RenderData" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="7.25" Y="3.812" />
+        <Point X="8.75" Y="3.812" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>CAAAQgAAAIAAhAgAAAAAAACAAAwRAAgACABAAEBEACA=</HashCode>
+      <FileName>Mesh.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model" Collapsed="true">
+    <Position X="17" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QQEAAAAAQAABACgAAQQAAAAAAAAAAAAACAgQgABAAAA=</HashCode>
+      <FileName>Model.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ModelAssetPool" Collapsed="true">
+    <Position X="5.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAFAAAACAAAAAAABAAAAAABAAAAAAAA=</HashCode>
+      <FileName>AssetsPool.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ModelRenderData" Collapsed="true">
+    <Position X="8.75" Y="1.5" Width="1.75" />
+    <InheritanceLine Type="RenderData" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="6.5" Y="3.5" />
+        <Point X="6.5" Y="1.875" />
+        <Point X="8.75" Y="1.875" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAACgAFAAAAAAABAAAAAAACIAAEAABIAA=</HashCode>
+      <FileName>Model.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Node" Collapsed="true">
+    <Position X="24.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>hCjABChAICABAUxSCBSAAPACCBAEEEICAEBEKAEAAAI=</HashCode>
+      <FileName>Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenGLAdapter" Collapsed="true">
+    <Position X="17.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAiCAAQBAIACwAQgBAAABIAAAAEEAKAoBgECiAAAQ=</HashCode>
+      <FileName>OpenGLAdapter.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PhysicsSystem" Collapsed="true">
+    <Position X="12.5" Y="6" Width="1.5" />
+    <InheritanceLine Type="SystemBase" FixedFromPoint="true">
+      <Path>
+        <Point X="15" Y="5.625" />
+        <Point X="13.25" Y="5.625" />
+        <Point X="13.25" Y="6" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AACAAwIAAAAAAAhQAAAAAAAAAAQEAABAAIAAAgAAAAA=</HashCode>
+      <FileName>PhysicsSystem.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RenderableComponent" Collapsed="true">
+    <Position X="29.75" Y="6.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAEACACAAgAAAAAAAgAAAACAAAICAAAAA=</HashCode>
+      <FileName>RenderableComponent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RenderData" Collapsed="true">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABCAAAAAAAAABAAAAACAAAAAAAAAAAAAAQAQAAA=</HashCode>
+      <FileName>RenderData.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RenderSystem" Collapsed="true">
+    <Position X="12.5" Y="4.5" Width="1.5" />
+    <InheritanceLine Type="SystemBase" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="15" Y="5.625" />
+        <Point X="13.25" Y="5.625" />
+        <Point X="13.25" Y="5.177" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAIEAAAABQAAQAAAAAAgAEAAEoAABCAAAQAAA=</HashCode>
+      <FileName>RenderSystem.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Rigidbody" Collapsed="true">
+    <Position X="30" Y="4.25" Width="1.5" />
+    <InheritanceLine Type="Component" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="28.25" Y="4.562" />
+        <Point X="30" Y="4.562" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AMAAgACAIBBAAAEQACgAAQIQAIgAAAIwARRKBQAQCAA=</HashCode>
+      <FileName>Rigidbody.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Rock" Collapsed="true">
+    <Position X="27.75" Y="9.5" Width="1.75" />
+    <InheritanceLine Type="RenderableComponent" FixedToPoint="true">
+      <Path>
+        <Point X="30.75" Y="6.927" />
+        <Point X="30.75" Y="9.812" />
+        <Point X="29.5" Y="9.812" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQABAAACUCEYABBAEAAABIAIABAgAAAAQAAA=</HashCode>
+      <FileName>Rock.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Scene" Collapsed="true">
+    <Position X="21.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAGCAIDAAARQygAQgBEQAQECAAiuAAMlYggAApUA=</HashCode>
+      <FileName>Scene.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SceneManager" Collapsed="true">
+    <Position X="17.5" Y="2.75" Width="1.5" />
+    <InheritanceLine Type="ManagerBase" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="16.5" Y="3.125" />
+        <Point X="17.5" Y="3.125" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAIlQAAAACoAAgBAIAAAAEghSAAAAAAw=</HashCode>
+      <FileName>SceneManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shader" Collapsed="true">
+    <Position X="19.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QBECAAAAAIQIABgAADKASAAAAAAAAJAAAACAAAAAEAA=</HashCode>
+      <FileName>Shader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShaderAssetPool" Collapsed="true">
+    <Position X="8" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAFAAAAAAAAAAAABAAAAAABAAAAAAAA=</HashCode>
+      <FileName>AssetsPool.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Skybox" Collapsed="true">
+    <Position X="32.75" Y="9.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQABAAACAgAQAAAAAAAAAAgIAAAAAAAAAAAA=</HashCode>
+      <FileName>Skybox.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SkyboxRenderData" Collapsed="true">
+    <Position X="5.5" Y="6.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAgAAAAAAAAEAAABAgABAAAgAUAAAAA=</HashCode>
+      <FileName>Skybox.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceShipControl" Collapsed="true">
+    <Position X="23.5" Y="6.25" Width="1.75" />
+    <InheritanceLine Type="Component" ManuallyRouted="true">
+      <Path>
+        <Point X="27.5" Y="4.927" />
+        <Point X="27.5" Y="5.536" />
+        <Point X="24.375" Y="5.536" />
+        <Point X="24.375" Y="6.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAYgAABAEIBACCQUAAAAAAAAAAAAAAIAgAAAAAAEAAA=</HashCode>
+      <FileName>SpaceShipControl.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sprite" Collapsed="true">
+    <Position X="14.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAEAAAAAQAAAAggEAAQAAAAEAAABQgAwAQAAAAAAAAI=</HashCode>
+      <FileName>Sprite.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpriteAssetPool" Collapsed="true">
+    <Position X="3.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAFAAAAAAAAAAAABAAAAAABAAAAAAAA=</HashCode>
+      <FileName>AssetsPool.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpriteRenderData" Collapsed="true">
+    <Position X="8.75" Y="2.5" Width="1.75" />
+    <InheritanceLine Type="RenderData" FixedToPoint="true">
+      <Path>
+        <Point X="6.5" Y="3.5" />
+        <Point X="6.5" Y="2.812" />
+        <Point X="8.75" Y="2.812" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAgAFAAAAAAABAABAgAACIAAEQAAIAA=</HashCode>
+      <FileName>Sprite.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SystemBase" Collapsed="true">
+    <Position X="15" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAIAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ManagerBase.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Texture" Collapsed="true">
+    <Position X="21.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAEAAAAARAABgAwBYAQAGAAAAQAAQBAEAAIQAAAAACA=</HashCode>
+      <FileName>Texture.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TextureAssetPool" Collapsed="true">
+    <Position X="10.25" Y="10.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAFAAAAAAAAAAAABAAAAAABAAAAAAAA=</HashCode>
+      <FileName>AssetsPool.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TextureRenderData" Collapsed="true">
+    <Position X="8.75" Y="5.5" Width="1.75" />
+    <InheritanceLine Type="RenderData" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="6.5" Y="4.177" />
+        <Point X="6.5" Y="5.812" />
+        <Point X="8.75" Y="5.812" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAJAAAAAAAAAAAABAACABAAEABAAQ=</HashCode>
+      <FileName>Texture.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Transform" Collapsed="true">
+    <Position X="30" Y="2.75" Width="1.5" />
+    <InheritanceLine Type="Component" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="28.25" Y="4.562" />
+        <Point X="28.625" Y="4.562" />
+        <Point X="28.625" Y="3.125" />
+        <Point X="30" Y="3.125" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>EBAIlAglZgBIAAAQAIGAIA0CAACAoIIGCABAEBAKACQ=</HashCode>
+      <FileName>Transform.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Updatable" Collapsed="true">
+    <Position X="21.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAIAAAAQAQAAAAAgAAAAAAAAAAAABAAAQAAAA=</HashCode>
+      <FileName>Updatable.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="AnimatableAttr&lt;T&gt;" Collapsed="true">
+    <Position X="32" Y="1.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAhBGAEiAAAAAAAAAsAAQEAAAACACAEAAAAAAAUAiA=</HashCode>
+      <FileName>AnimatableAttr.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="SceneChangeRequest" Collapsed="true">
+    <Position X="17.25" Y="3.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAIAAAAABAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>SceneManager.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Vertex" Collapsed="true">
+    <Position X="17" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAABAAAAAAAAAAAAAAAAAAABABAAAAAAAAA=</HashCode>
+      <FileName>Mesh.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Enum Name="AssetStatus" Collapsed="true">
+    <Position X="17" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAAAAAAAAAAAkAAAAAAAAAACA=</HashCode>
+      <FileName>Asset.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BoundingType" Collapsed="true">
+    <Position X="32.75" Y="8.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAEAACAA=</HashCode>
+      <FileName>BoundingBox.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="CallbackType" Collapsed="true">
+    <Position X="17.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAEAAAAAAAAAAAAAAAAAAEAAgAAAAAAA=</HashCode>
+      <FileName>OpenGLAdapter.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Movement" Collapsed="true">
+    <Position X="23.5" Y="7.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAKAAAAAAAAAAAAAAAAAAAAAAAAACACAAAAAAAI=</HashCode>
+      <FileName>SpaceShipControl.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="RenderType" Collapsed="true">
+    <Position X="17" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Mesh.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SceneChangeType" Collapsed="true">
+    <Position X="17.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAAAAAAAAACAAAAAAAAAAAFACIA=</HashCode>
+      <FileName>SceneManager.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="UseType" Collapsed="true">
+    <Position X="21.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAIAQAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Texture.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>

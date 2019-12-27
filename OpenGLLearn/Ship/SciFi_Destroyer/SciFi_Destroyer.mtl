@@ -1,0 +1,27 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# 创建的文件:07.12.2019 12:45:35
+
+newmtl wire_010013018
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.0392 0.0510 0.0706
+	Kd 0.0392 0.0510 0.0706
+	Ks 0.3500 0.3500 0.3500
+
+newmtl SciFi_Destroyer_Lights
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.9686 0.6157 0.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Kd SciFi_Destroyer_Diffuse.jpg
+	map_Ks SciFi_Destroyer_Specular.jpg
+	map_Bump SciFi_Destroyer_Lights.jpg
